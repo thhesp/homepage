@@ -1,12 +1,15 @@
-<html>
-<head></head>
+{# app/Resources/views/Default/index.html.twig #}
+{% extends 'TSHomepageBundle:Default:base.html.twig' %}
 
-<body>
-
-<h1>Hier entsteht eine Webpräsenz....</h1>
-<div>
-	<p>Wie man sieht ist diese erst gaaaaaaanz am Anfang :/</p>
-</div>
-</body>
-
-</html>
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Hier entsteht eine Webpräsenz....</h2>
+                <div>
+                        <p>Wie man sieht ist diese erst gaaaaaaanz am Anfang :/</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

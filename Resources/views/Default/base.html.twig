@@ -1,0 +1,30 @@
+{# app/Resources/views/Default/base.html.twig #}
+<html>
+    <head>
+        {# ... #}
+
+        {% block stylesheets %}
+            
+            <link href="{{ asset('bundles/tshomepage/css/bootstrap.min.css') }}" rel="stylesheet" />
+        {% endblock %}
+    </head>
+    <body>
+        {% block header %}
+            
+        {% endblock %}
+        
+        {% block body %}
+            
+        {% endblock %}
+        
+        {% block footer %}
+            
+        {% endblock %}
+
+        {% block javascripts %}
+            
+            <script src="{{ asset('bundles/tshomepage/js/lib/jquery-2.1.3.min.js') }}"></script>
+            <script src="{{ asset('bundles/tshomepage/js/lib/bootstrap.min.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>
