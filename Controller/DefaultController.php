@@ -10,4 +10,19 @@ class DefaultController extends Controller
     {
         return $this->render('TSHomepageBundle:Default:index.html.twig');
     }
+    
+    public function projectsAction()
+    {
+        return $this->render('TSHomepageBundle:Default:projects.html.twig');
+    }
+    
+    public function imprintAction()
+    {
+        return $this->render('TSHomepageBundle:Default:imprint.html.twig');
+    }
+    
+    public function contactAction()
+    {
+        return $this->render('TSHomepageBundle:Default:contact.html.twig');
+    }
 }

@@ -1,0 +1,31 @@
+
+/*
+    Created on : 27.03.2015, 21:33:37
+    Author     : Thomas
+*/
+
+.container-fluid {
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#header {
+    width: 100%;
+    height: 5%;
+    background-color: black;
+}
+
+#navigation {
+
+}
+
+#footer {
+    height: 5%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+}

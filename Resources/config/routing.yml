@@ -1,3 +1,43 @@
+#without locale
 index:
   path: /
   defaults: { _controller: TSHomepageBundle:Default:index }
+
+projects:
+  path: /projects/
+  defaults: { _controller: TSHomepageBundle:Default:projects }
+  
+imprint:
+  path: /imprint/
+  defaults: { _controller: TSHomepageBundle:Default:imprint }
+
+    
+contact:
+  path: /contact/
+  defaults: { _controller: TSHomepageBundle:Default:contact }
+
+
+# with locale
+index_locale:
+  path: /{_locale}/
+  defaults: { _controller: TSHomepageBundle:Default:index }
+  requirements:
+    _locale: de|en
+
+projects_locale:
+  path: /{_locale}/projects/
+  defaults: { _controller: TSHomepageBundle:Default:projects }
+  requirements:
+    _locale: de|en
+  
+imprint_locale:
+  path: /{_locale}/imprint/
+  defaults: { _controller: TSHomepageBundle:Default:imprint }
+  requirements:
+    _locale: de|en
+    
+contact_locale:
+  path: /{_locale}/contact/
+  defaults: { _controller: TSHomepageBundle:Default:contact }
+  requirements:
+    _locale: de|en
